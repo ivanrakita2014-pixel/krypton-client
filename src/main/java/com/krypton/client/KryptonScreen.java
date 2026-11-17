@@ -24,7 +24,6 @@ public final class KryptonScreen extends Screen {
 
     @Override
     public void render(GuiGraphics g, int mouseX, int mouseY, float delta) {
-        renderBackground(g, mouseX, mouseY, delta);
 
         g.fill(panelX, panelY, panelX + panelW, panelY + panelH, 0xEE10131D);
         g.fill(panelX, panelY, panelX + panelW, panelY + 34, 0xFF171E30);
