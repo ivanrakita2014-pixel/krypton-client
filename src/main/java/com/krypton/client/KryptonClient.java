@@ -174,8 +174,3 @@ public final class KryptonClient implements ClientModInitializer {
         }
     }
 }
-
-        }
-        pose.popPose();
-    }
-}
